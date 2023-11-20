@@ -1,14 +1,19 @@
+* {
+    background-color: aliceblue;
+}
+
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
     font-family: Verdana, Arial, sans-serif;
-    color: darkblue
+    color: rgb(195, 30, 63);
+    background-color: white;
 }
 
 h2 {
     font-size: 20px;
     font-family: Verdana, Arial, sans-serif;
-    color: coral
+    color: coral;
  
 }
 
@@ -16,22 +21,27 @@ p {
     text-align: center;
     font-size: 18px;
     font-family: Georgia, Garamond, serif;
+    color: navy;
+    background-color: rgb(246, 237, 237);
 
 }
 
 img {
-    width: 600;
+    width: 100%;
+    height: auto;
 }
 
 li {
     font-size: 16px;
     font-family: Georgia, Garamond, serif; 
+    color: navy;
 }
 
-.class {
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.link {
+    font-size: 20px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
 }
+
 
 ul,
 ol {
@@ -40,8 +50,8 @@ ol {
 
 button {
     background-color: lightblue;
-    font-size: 16px;
-    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 300;
     color: navy
 }
