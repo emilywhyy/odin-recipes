@@ -53,11 +53,6 @@ li {
     line-height: 1.5em;
 }
 
-.link {
-    font-size: 20px;
-    font-family: Garamond, 'Times New Roman', Times, serif;
-}
-
 
 .button-container {
     margin-top: 48px; 
@@ -97,4 +92,40 @@ span {
     width: auto;
     padding-left: 1em;
 
+}
+
+.flex-container {
+    display: flex;
+    width: 75%;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.flex-container .link {
+    font-size: 20px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    height: 75px;
+    width: 300px;
+    flex: initial;
+}
+.img-container {
+    display: flex;
+    width: 75%;
+    height: 150px;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.img-container img {
+    flex: 1;
+}
+
+.box {
+    text-align: center;
+    padding: 8px;
 }
