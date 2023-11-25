@@ -15,6 +15,7 @@ h1 {
     font-size: 45px;
     font-family: Verdana, Arial, sans-serif;
     color: rgb(195, 30, 63);
+    margin-bottom: 48px;
 }
 
 h2 {
@@ -30,7 +31,6 @@ p {
     font-size: 18px;
     font-family: Georgia, Garamond, serif;
     color: navy;
-    background-color: rgb(246, 237, 237);
     width: 75%;
     margin-left: auto;
     margin-right: auto;
